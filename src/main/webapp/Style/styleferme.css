@@ -1,0 +1,153 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 mars 2016, 11:20:44
+    Author     : admin
+*/
+
+body {
+    background-image: url('Image/fermefond.bmp');
+    background-size: 1600px;
+    background-repeat:no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.body2 {
+    background-image: url('Image/fermefond.bmp');
+    background-size: 1600px;
+    background-repeat:no-repeat;
+    text-align: center;
+    color : black;
+}
+.titre{
+
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: extra-condensed;
+    font-size: xx-large;
+
+    background-image: url('Image/ferme/bandeauciellaferme.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 120px;
+
+
+
+}
+
+.bouton a {
+    display:inline;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    background:url(Image/bois2.jpg) no-repeat;
+    color:white;
+    text-decoration:none;
+}
+.bouton a:hover {
+    background:url(Image/bois3.jpg) no-repeat;
+}
+input[type=submit], input[type=reset]{
+ display:inline;
+    width:75px;
+    line-height:25px;
+    text-align:center;
+    font-size: medium;
+    vertical-align:middle;
+    background:url(Image/bois2.jpg) no-repeat;
+    color:white;
+    text-decoration:none;
+}
+input[type=submit]:hover, input[type=reset]:hover {
+ background:url(Image/bois3.jpg) no-repeat;
+ }
+
+ 
+
+.pied{
+    color : midnightblue ;
+    font-size: small;
+    font-style: italic;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.ressources{
+    width: 200px;
+    height: 700px;
+    float: left;
+    background-color: rgba(0, 0 , 0, 0.5);
+    color : white;
+    display: inline;
+    border:3px solid black;
+  
+}
+
+.fonctionjeu{
+    width: 350px;
+    height: 700px;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: inline;
+    border:3px solid black;
+   
+}
+
+.boutonplanter a {
+    display:inline;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    background:url(Image/ferme/herbe.jpg) no-repeat;
+    color:white;
+    text-decoration:none;
+}
+.boutonplanter a:hover {
+    background:url(Image/ferme/herbe2.jpg) no-repeat;
+}
+
+.encloschevre {
+margin-left:645px;
+min-height:150px;
+
+}
+
+.main {
+max-width:960px;
+margin:auto;
+position:relative;
+color:white;
+}
+.potager {
+width:240px;
+position:absolute;
+margin-top: 230px;
+color:white;
+}
+.enclos {
+margin-left:500px;
+min-height:150px;
+margin-top: 100px;
+color:white;
+}
+
+
+.table {
+   display:inline;
+   margin:0px;
+   padding:3px;
+    color: black;
+     clear:left;
+   margin:0px;
+   padding:0px;
+   height:100% !important; height:1em;
+  }
